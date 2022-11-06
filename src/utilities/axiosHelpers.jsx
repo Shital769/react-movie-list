@@ -6,3 +6,5 @@ export const fetchData = (str) => {
   const response = axios(apiEndPoint);
   return response;
 };
+
+
