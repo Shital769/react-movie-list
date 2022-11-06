@@ -4,3 +4,14 @@
   color: rgba(164, 239, 254, 0.856);
   padding-top: 2rem;
 }
+
+.icon {
+  display: none;
+}
+
+.movie-card:hover .icon {
+  color: red;
+  zoom: 150%;
+  display: block;
+  cursor: pointer;
+}
