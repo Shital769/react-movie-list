@@ -19,7 +19,7 @@ export const MovieCard = ({ movie = {}, func, showDelete, handleOnClear }) => {
 
         {showDelete ? (
           <div className="d-grid">
-            <Button onClick={() => func(imdbID)} variant="danger">
+            <Button onClick={() => func(imdbID)} variant="danger" >
               Delete
             </Button>
           </div>
